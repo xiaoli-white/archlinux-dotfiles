@@ -1,0 +1,110 @@
+// DMS Window Rules - Managed by DankMaterialShell
+// Do not edit manually - changes may be overwritten
+
+// @id=wr_1772529943495605376 @name=microsoft-edge
+window-rule {
+    match app-id="^microsoft-edge$"
+    open-maximized true
+}
+
+// @id=wr_1772531039272504259 @name=wechat
+window-rule {
+    match app-id="^wechat$"
+    open-maximized true
+}
+
+// @id=wr_1772531042541612719 @name=QQ
+window-rule {
+    match app-id="^QQ$"
+    open-maximized true
+}
+
+// @id=wr_1772531166616978574 @name=clash-verge
+window-rule {
+    match app-id="^clash-verge$"
+    open-maximized true
+}
+
+// @id=wr_1772531362426285181 @name=rog-control-center
+window-rule {
+    match app-id="^rog-control-center$"
+    open-maximized true
+}
+
+// @id=wr_1772532371313509820 @name=io.missioncenter.MissionCenter
+window-rule {
+    match app-id="^io.missioncenter.MissionCenter$"
+    open-maximized true
+}
+
+// @id=wr_1772533905008727846 @name=yesplaymusic
+window-rule {
+    match app-id="^yesplaymusic$"
+    open-maximized true
+}
+
+// @id=wr_1772533557980050367 @name=jetbrains-clion
+window-rule {
+    match app-id="^jetbrains-clion$"
+    open-maximized true
+}
+
+// @id=wr_1772534150514671785 @name=jetbrains-idea
+window-rule {
+    match app-id="^jetbrains-idea$"
+    open-maximized true
+}
+
+// @id=wr_1772534236673382608 @name=jetbrains-rustrover
+window-rule {
+    match app-id="^jetbrains-rustrover$"
+    open-maximized true
+}
+
+// @id=wr_1772534274241148209 @name=jetbrains-pycharm
+window-rule {
+    match app-id="^jetbrains-pycharm$"
+    open-maximized true
+}
+
+// @id=wr_1772534435886865887 @name=jetbrains-webstorm
+window-rule {
+    match app-id="^jetbrains-webstorm$"
+    open-maximized true
+}
+
+// @id=wr_1772534439199272390 @name=jetbrains-rider
+window-rule {
+    match app-id="^jetbrains-rider$"
+    open-maximized true
+}
+
+// @id=wr_1772534443989035571 @name=jetbrains-datagrip
+window-rule {
+    match app-id="^jetbrains-datagrip$"
+    open-maximized true
+}
+
+// @id=wr_1772538379766721824 @name=texstudio
+window-rule {
+    match app-id="^texstudio$"
+    open-maximized true
+}
+
+// @id=wr_1772539199638551238 @name=Vmware
+window-rule {
+    match app-id="^Vmware$"
+    open-maximized true
+}
+
+// @id=wr_1772539224206195721 @name=Minecraft
+window-rule {
+    match app-id="^Minecraft\\\\*"
+    open-maximized true
+}
+
+// @id=wr_1773132684691034736 @name=code
+window-rule {
+    match app-id="^code$"
+    open-maximized true
+}
