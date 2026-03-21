@@ -44,6 +44,9 @@ binds {
     
     // mod+鼠标中键 关闭窗口
     Mod+MouseMiddle  { close-window; }
+    Mod+Ctrl+E repeat=false {
+        spawn-sh "wl-mirror $(niri msg -j focused-output | jq -r .name)";
+    }
 
     // 切换聚焦
     // super+方向键

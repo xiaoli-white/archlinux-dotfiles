@@ -108,3 +108,9 @@ window-rule {
     match app-id="^code$"
     open-maximized true
 }
+
+// @id=wr_1774017086637287951 @name=btrfs-assistant
+window-rule {
+    match app-id="^btrfs-assistant$"
+    open-maximized true
+}
