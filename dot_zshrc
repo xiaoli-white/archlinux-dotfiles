@@ -141,5 +141,3 @@ unset __conda_setup
 
 eval "$(ccr activate)"
 
-# OpenClaw Completion
-source "/home/xiaoli/.openclaw/completions/openclaw.zsh"
