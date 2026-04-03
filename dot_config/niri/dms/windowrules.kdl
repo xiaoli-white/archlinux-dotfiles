@@ -114,3 +114,9 @@ window-rule {
     match app-id="^btrfs-assistant$"
     open-maximized true
 }
+
+// @id=wr_1775217025452785886 @name=wpsoffice
+window-rule {
+    match app-id="^wpsoffice$"
+    open-maximized true
+}
