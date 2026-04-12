@@ -120,3 +120,63 @@ window-rule {
     match app-id="^wpsoffice$"
     open-maximized true
 }
+
+// @id=wr_1775350975655535259 @name=org.gnome.Evolution
+window-rule {
+    match app-id="^org.gnome.Evolution$"
+    open-maximized true
+}
+
+// @id=wr_1775351545411613839 @name=Audacity
+window-rule {
+    match app-id="^Audacity$"
+    open-maximized true
+}
+
+// @id=wr_1775352423379810776 @name=marktext
+window-rule {
+    match app-id="^marktext$"
+    open-maximized true
+}
+
+// @id=wr_1775362165344755732 @name=com.follow.clash
+window-rule {
+    match app-id="^com.follow.clash$"
+    open-maximized true
+}
+
+// @id=wr_1775367728882776542 @name=modrinth-app
+window-rule {
+    match app-id="^modrinth-app$"
+    open-maximized true
+}
+
+// @id=wr_1775564297554943506 @name=trae-cn
+window-rule {
+    match app-id="^trae-cn$"
+    open-maximized true
+}
+
+// @id=wr_1775659316332363183 @name=gimp
+window-rule {
+    match app-id="^gimp$"
+    open-maximized true
+}
+
+// @id=wr_1775823481458143196 @name=Feishu
+window-rule {
+    match app-id="^Feishu$"
+    open-maximized true
+}
+
+// @id=wr_1775909688423506230 @name=tabby
+window-rule {
+    match app-id="^tabby$"
+    open-maximized true
+}
+
+// @id=wr_1775994249822973740 @name=virt-manager
+window-rule {
+    match app-id="^virt-manager$"
+    open-maximized true
+}
