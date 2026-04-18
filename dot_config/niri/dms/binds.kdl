@@ -44,7 +44,8 @@ binds {
     
     // mod+鼠标中键 关闭窗口
     Mod+MouseMiddle  { close-window; }
-    Mod+P repeat=false {
+
+    Mod+P repeat=false hotkey-overlay-title="镜像屏幕 Mirror Output"{
         spawn-sh "wl-mirror $(niri msg -j focused-output | jq -r .name)";
     }
 

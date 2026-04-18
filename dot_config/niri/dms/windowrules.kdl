@@ -151,12 +151,6 @@ window-rule {
     open-maximized true
 }
 
-// @id=wr_1775564297554943506 @name=trae-cn
-window-rule {
-    match app-id="^trae-cn$"
-    open-maximized true
-}
-
 // @id=wr_1775659316332363183 @name=gimp
 window-rule {
     match app-id="^gimp$"
@@ -178,5 +172,35 @@ window-rule {
 // @id=wr_1775994249822973740 @name=virt-manager
 window-rule {
     match app-id="^virt-manager$"
+    open-maximized true
+}
+
+// @id=wr_1776007988382136072 @name=org.gnome.baobab
+window-rule {
+    match app-id="^org.gnome.baobab$"
+    open-maximized true
+}
+
+// @id=wr_1776345164379839636 @name=qoder
+window-rule {
+    match app-id="^qoder$"
+    open-maximized true
+}
+
+// @id=wr_1776438854480315811 @name=com.obsproject.Studio
+window-rule {
+    match app-id="^com.obsproject.Studio$"
+    open-maximized true
+}
+
+// @id=wr_1776444862006120967 @name=org.shotcut.Shotcut
+window-rule {
+    match app-id="^org.shotcut.Shotcut$"
+    open-maximized true
+}
+
+// @id=wr_1776444897763027619 @name=org.kde.kdenlive
+window-rule {
+    match app-id="^org.kde.kdenlive$"
     open-maximized true
 }
