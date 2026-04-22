@@ -204,3 +204,15 @@ window-rule {
     match app-id="^org.kde.kdenlive$"
     open-maximized true
 }
+
+// @id=wr_1776602406442542306 @name=spark-store
+window-rule {
+    match app-id="^spark-store$"
+    open-maximized true
+}
+
+// @id=wr_1776609322380064408 @name=Trilium Notes
+window-rule {
+    match app-id="^Trilium Notes$"
+    open-maximized true
+}

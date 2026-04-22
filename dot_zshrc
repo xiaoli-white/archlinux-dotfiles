@@ -142,3 +142,6 @@ unset __conda_setup
 eval "$(ccr activate)"
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+fpath=(~/.config/zsh/functions $fpath)
+autoload -Uz ~/.config/zsh/functions/*(:t)
