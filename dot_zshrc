@@ -145,3 +145,5 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 fpath=(~/.config/zsh/functions $fpath)
 autoload -Uz ~/.config/zsh/functions/*(:t)
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
