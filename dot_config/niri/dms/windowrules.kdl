@@ -216,3 +216,15 @@ window-rule {
     match app-id="^Trilium Notes$"
     open-maximized true
 }
+
+// @id=wr_1777812421767495753 @name=wemeetapp
+window-rule {
+    match app-id="^wemeetapp$"
+    open-maximized true
+}
+
+// @id=wr_1777817567076752966 @name=oss-browser2
+window-rule {
+    match app-id="^oss-browser2$"
+    open-maximized true
+}
