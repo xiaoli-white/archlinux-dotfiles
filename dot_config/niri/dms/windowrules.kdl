@@ -228,3 +228,9 @@ window-rule {
     match app-id="^oss-browser2$"
     open-maximized true
 }
+
+// @id=wr_1778143139075650069 @name=v2rayN
+window-rule {
+    match app-id="^v2rayN$"
+    open-maximized true
+}

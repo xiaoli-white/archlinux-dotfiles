@@ -1,0 +1,6 @@
+local curr=$PWD
+cd ~/AI/ComfyUI/
+conda activate comfyui-env
+python3 main.py || true
+conda deactivate
+cd $curr

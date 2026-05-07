@@ -139,8 +139,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-eval "$(ccr activate)"
-
 export PATH="$HOME/.cargo/bin:$PATH"
 
 fpath=(~/.config/zsh/functions $fpath)

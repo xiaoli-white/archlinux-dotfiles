@@ -159,15 +159,15 @@ overview {
 // See the binds section below for more spawn examples.
 // This line starts waybar, a commonly used bar for Wayland compositors.
 environment {
-// qt theme
-QT_QPA_PLATFORMTHEME "gtk3"
-QT_QPA_PLATFORMTHEME_QT6 "gtk3"
-// fix quickshell icon theme missing
-QS_ICON_THEME "Adwaita"
+    // qt theme
+    QT_QPA_PLATFORMTHEME "gtk3"
+    QT_QPA_PLATFORMTHEME_QT6 "gtk3"
+    // fix quickshell icon theme missing
+    QS_ICON_THEME "Adwaita"
     LC_CTYPE "en_US.UTF-8"
     XMODIFIERS "@im=fcitx"
     LANG "zh_CN.UTF-8"
-  XDG_CURRENT_DESKTOP "niri"
+    XDG_CURRENT_DESKTOP "niri"
 }
 hotkey-overlay {
     skip-at-startup
