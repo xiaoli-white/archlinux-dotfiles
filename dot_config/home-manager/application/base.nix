@@ -1,6 +1,6 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 {
-    home.packages = with pkgs; [
-        statix
-    ];
+  home.packages = with pkgs; [
+    statix
+  ];
 }

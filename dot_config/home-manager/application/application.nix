@@ -1,6 +1,7 @@
-{ config, pkgs, ... }:
+{ ... }:
 {
-    imports = [
-        ./base.nix
-    ];
+  imports = [
+    ./base.nix
+    ./develop.nix
+  ];
 }

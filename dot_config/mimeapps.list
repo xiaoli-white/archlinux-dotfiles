@@ -2,6 +2,11 @@
 x-scheme-handler/clash=clash-verge.desktop;
 x-scheme-handler/clash-verge=clash-verge.desktop;
 inode/directory=org.gnome.Nautilus.desktop
+x-scheme-handler/jetbrains=jetbrainsd.desktop
+image/png=imv.desktop
 
 [Added Associations]
 application/x-zerosize=nvim.desktop;
+x-scheme-handler/clash=clash-verge.desktop;
+x-scheme-handler/clash-verge=clash-verge.desktop;
+image/png=org.kde.gwenview.desktop;imv.desktop;

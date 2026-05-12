@@ -282,14 +282,16 @@ include "dms/alttab.kdl"
 include "dms/binds.kdl"
 include "dms/outputs.kdl"
 include "dms/cursor.kdl"
+include "dms/windowrules.kdl"
+
 spawn-at-startup "xhost" "+si:localuser:root"
 spawn-at-startup "fcitx5" "-d"
 spawn-sh-at-startup "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=niri & /usr/lib/xdg-desktop-portal-gnome"
 spawn-at-startup "~/.config/niri/shorin-niri/scripts/screenshot-sound.sh"
 spawn-sh-at-startup "xrdb ~/.Xresources"
+spawn-at-startup "niri-sidebar" "listen"
+
 include "shorin-niri/rule.kdl"
 include "shorin-niri/supertab.kdl"
-
-include "dms/windowrules.kdl"
 
 include "run-on-nvidia.kdl"

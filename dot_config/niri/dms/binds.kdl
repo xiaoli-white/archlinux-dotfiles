@@ -9,7 +9,7 @@ binds {
     Mod+Shift+Slash hotkey-overlay-title="快捷键教程 Keybind tutorial" { show-hotkey-overlay; }
 
     // alt+tab切换窗口
-    Mod+F1 hotkey-overlay-title="开关快捷键 Toggle keybinds" allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+    Mod+F1 hotkey-overlay-title="开关输入法 Toggle fcitx" {spawn-sh "pkill fcitx5 || fcitx5 ";}
     Mod+F5 hotkey-overlay-title="快速存档 Quick save" {spawn "quicksave";}
     Mod+F8 hotkey-overlay-title="快速读档 Quick load" {spawn "quickload";}
 
@@ -41,6 +41,7 @@ binds {
     Mod+P repeat=false hotkey-overlay-title="镜像屏幕 Mirror Output"{
         spawn-sh "wl-mirror $(niri msg -j focused-output | jq -r .name)";
     }
+    Mod+Escape hotkey-overlay-title="开关快捷键 Toggle keybinds" allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
     // 切换聚焦
     // super+方向键
@@ -195,17 +196,17 @@ binds {
     Print  hotkey-overlay-title=null {spawn-sh "niri msg action screenshot --show-pointer false && pkill -f -USR1 screenshot-sound.sh";}
     Ctrl+Print  hotkey-overlay-title=null { spawn-sh "niri msg action screenshot-window --show-pointer false && pkill -f -USR1 screenshot-sound.sh"; }
     Shift+Print  hotkey-overlay-title=null { spawn-sh "niri msg action screenshot-screen --show-pointer false && pkill -f -USR1 screenshot-sound.sh"; }
-    Mod+Shift+S  hotkey-overlay-title="截图后按下此键进行编辑 Edit the image after screenshot" { spawn-sh "~/.config/scripts/satty_from_clipboard.sh";}
+    Mod+Shift+S  hotkey-overlay-title="编辑剪切板中的图片 Edit the image in the clipboard" { spawn-sh "~/.config/scripts/satty_from_clipboard.sh";}
 
     Mod+Shift+E hotkey-overlay-title="退出niri Quit niri" { quit; }
 
     // niri-sidebar扩展相关
     // 切换 移动聚焦窗口至侧边栏 （建议配合切换浮动聚焦的快捷键使用，我设置的是super+n）
-    Mod+M hotkey-overlay-title="收起窗口 Move to Sidebar" { spawn "niri-sidebar" "toggle-window"; }
+    Mod+M hotkey-overlay-title="移动聚焦窗口至侧边栏 Move to Sidebar" { spawn "niri-sidebar" "toggle-window"; }
     // 切换 收起/展开侧边栏
     Mod+Alt+Z hotkey-overlay-title="展开/收起侧边栏 Toggle Sidebar" { spawn "niri-sidebar" "toggle-visibility";}
     // 反向排序侧边栏
-    Mod+Alt+X hotkey-overlay-title=null { spawn "niri-sidebar" "flip";}
+    Mod+Alt+X hotkey-overlay-title="移动聚焦窗口至侧边栏" { spawn "niri-sidebar" "flip";}
     // 重新排列侧边栏中的窗口（侧边栏中的窗口本质是一个浮动窗口，你有时候可能会把它移动到别的地方
     // 例如 ctrl+c居中。此时按下此键可以重新排列）
     Mod+Alt+R hotkey-overlay-title="重置侧边栏 Reorder Sidebar"  { spawn "niri-sidebar" "reorder"; }
@@ -216,9 +217,9 @@ binds {
     
     // === DMS 特有组件 ===
     // 电源菜单 (Super+X)
-    Super+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    Super+X hotkey-overlay-title="电源菜单 Power Menu" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
     // 壁纸选择器 (Mod+Y，作为 Mod+Alt+W 的备用)
-    Mod+Y hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "ipc" "call" "dankdash" "wallpaper"; }
+    Mod+Y hotkey-overlay-title="壁纸选择器 Browse Wallpapers" { spawn "dms" "ipc" "call" "dankdash" "wallpaper"; }
     // 剪贴板
     Mod+Alt+V hotkey-overlay-title="剪贴板 Clipboard" {spawn "dms" "ipc" "call" "clipboard" "toggle";} 
     // 记事本
