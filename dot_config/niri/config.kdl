@@ -289,6 +289,7 @@ spawn-at-startup "fcitx5" "-d"
 spawn-sh-at-startup "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=niri & /usr/lib/xdg-desktop-portal-gnome"
 spawn-at-startup "~/.config/niri/shorin-niri/scripts/screenshot-sound.sh"
 spawn-sh-at-startup "xrdb ~/.Xresources"
+spawn-at-startup "xsettingsd"
 spawn-at-startup "niri-sidebar" "listen"
 
 include "shorin-niri/rule.kdl"

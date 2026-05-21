@@ -181,12 +181,6 @@ window-rule {
     open-maximized true
 }
 
-// @id=wr_1776345164379839636 @name=qoder
-window-rule {
-    match app-id="^qoder$"
-    open-maximized true
-}
-
 // @id=wr_1776438854480315811 @name=com.obsproject.Studio
 window-rule {
     match app-id="^com.obsproject.Studio$"
@@ -244,5 +238,17 @@ window-rule {
 // @id=wr_1778335544819583005 @name=org.prismlauncher.PrismLauncher
 window-rule {
     match app-id="^org.prismlauncher.PrismLauncher$"
+    open-maximized true
+}
+
+// @id=wr_1778821344730814180 @name=Qoder
+window-rule {
+    match app-id="^Qoder$"
+    open-maximized true
+}
+
+// @id=wr_1779106913030193072 @name=com.moonlight_stream.Moonlight
+window-rule {
+    match app-id="^com.moonlight_stream.Moonlight$"
     open-maximized true
 }

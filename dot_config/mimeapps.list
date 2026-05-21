@@ -7,6 +7,8 @@ image/png=imv.desktop
 text/markdown=nvim.desktop
 text/plain=nvim.desktop
 application/octet-stream=nvim.desktop
+application/json=nvim.desktop
+application/wps-office.docx=libreoffice-writer.desktop
 
 [Added Associations]
 application/x-zerosize=nvim.desktop;
@@ -15,3 +17,5 @@ x-scheme-handler/clash-verge=clash-verge.desktop;
 image/png=org.kde.gwenview.desktop;imv.desktop;
 text/markdown=nvim.desktop;
 text/plain=nvim.desktop;
+application/json=nvim.desktop;
+application/wps-office.docx=libreoffice-writer.desktop;
